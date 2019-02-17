@@ -32,7 +32,6 @@ public class Airbase {
         return listOfPlanes;
     }
     public static String toStringArray(ArrayList<Plane> listOfPlanes){
-        listOfPlanes.toArray();
         String planes = "";
         for(Plane item : listOfPlanes){
             planes += item.toString();

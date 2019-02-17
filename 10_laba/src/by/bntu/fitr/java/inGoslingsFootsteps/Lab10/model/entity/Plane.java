@@ -13,6 +13,41 @@ public class Plane {
     private String destination;
     private boolean isFlying;
 
+    static {
+        planeAcount = 0;
+    }
+
+    {
+        planeAcount++;
+    }
+
+    public Plane() {
+        airline = "no name";
+        spaciousness = MIN_COUNT_OF_PEOPLE;
+        time = MIN_TIME;
+        departurePoint = "Minsk";
+        destination = "no name";
+        isFlying = false;
+    }
+
+    public Plane(String airline, int spaciousness, int time, String departurePoint, String destination, boolean isFlying) {
+        this.airline = airline;
+        this.departurePoint = departurePoint;
+        this.destination = destination;
+        this.spaciousness = spaciousness;
+        this.time = time;
+        this.isFlying = isFlying;
+    }
+
+    public Plane(Plane plane) {
+        airline = plane.airline;
+        departurePoint = plane.departurePoint;
+        destination = plane.destination;
+        spaciousness = plane.spaciousness;
+        time = plane.time;
+        isFlying = plane.isFlying;
+    }
+
     public boolean isFlying() {
         return isFlying;
     }
@@ -59,41 +94,6 @@ public class Plane {
 
     public void setDestination(String destination) {
         this.destination = destination;
-    }
-
-    static {
-        planeAcount = 0;
-    }
-
-    {
-        planeAcount++;
-    }
-
-    public Plane() {
-        airline = "no name";
-        spaciousness = MIN_COUNT_OF_PEOPLE;
-        time = MIN_TIME;
-        departurePoint = "Minsk";
-        destination = "no name";
-        isFlying = false;
-    }
-
-    public Plane(String airline, int spaciousness, int time, String departurePoint, String destination, boolean isFlying) {
-        this.airline = airline;
-        this.departurePoint = departurePoint;
-        this.destination = destination;
-        this.spaciousness = spaciousness;
-        this.time = time;
-        this.isFlying = isFlying;
-    }
-
-    public Plane(Plane plane) {
-        airline = plane.airline;
-        departurePoint = plane.departurePoint;
-        destination = plane.destination;
-        spaciousness = plane.spaciousness;
-        time = plane.time;
-        isFlying = plane.isFlying;
     }
 
     public String toString() {
