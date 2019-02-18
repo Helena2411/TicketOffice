@@ -13,21 +13,12 @@ public class Plane {
     private String destination;
     private boolean isFlying;
 
-    static {
-        planeAcount = 0;
-    }
-
-    {
-        planeAcount++;
-    }
-
     public Plane() {
         airline = "no name";
         spaciousness = MIN_COUNT_OF_PEOPLE;
         time = MIN_TIME;
-        departurePoint = "Minsk";
+        departurePoint = "no name";
         destination = "no name";
-        isFlying = false;
     }
 
     public Plane(String airline, int spaciousness, int time, String departurePoint, String destination, boolean isFlying) {
