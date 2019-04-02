@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c14869c7-fb19-493a-bccf-01800796f7d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/ManufacturerPlanes.java" afterDir="false" />
+    <list default="true" id="c14869c7-fb19-493a-bccf-01800796f7d5" name="Default Changelist" comment="Deleted unnecessary lines">
+      <change afterPath="$PROJECT_DIR$/Shablon_oformlenia_otchyota_po_08_laboratornoy_rabote.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/ManufacturerPlanes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/model/entity/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/model/logic/MatrixWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/userinput/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/view/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/util/UserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/util/UserInput.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/util/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/util/UserInput.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,33 +29,46 @@
     <session id="1425767809">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4885" />
+          <entry key="java" value="4910" />
+          <entry key="txt" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4885" />
+          <entry key="JAVA" value="4910" />
+          <entry key="PLAIN_TEXT" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.merge" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -58,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/ManufacturerPlanes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="238">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="267">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +111,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-245">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="136">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/model/entity/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/model/logic/MatrixWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -103,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -112,14 +150,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
                 <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/view/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="85">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#170#171#0" expanded="true" />
@@ -180,8 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -249,10 +285,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550524208521" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550525626580" />
+    <property name="last_opened_file_path" value="D:/программируем на java/1 лаба/src" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -288,13 +327,49 @@
       <option name="presentableId" value="Default" />
       <updated>1550328287586</updated>
     </task>
+    <task id="LOCAL-00001" summary="global update&#10;added container">
+      <created>1550525107010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550525107010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19818456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.14674735" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7258065" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4969743" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32741934" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" visible="true" weight="0.32741934" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -308,36 +383,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923076" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3276923" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19818456" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" weight="0.14674735" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3276923" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4977307" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3276923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -353,67 +400,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="global update&#10;added container" />
+    <MESSAGE value="Deleted unnecessary lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted unnecessary lines" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/view/Printer.java" />
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/InitList.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/InitList.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/ManufacturerPlanes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/view/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -424,13 +425,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/ManufacturerPlanes.java">
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="153">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/view/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/model/entity/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/model/logic/MatrixWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>

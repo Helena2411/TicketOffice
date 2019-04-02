@@ -2,10 +2,9 @@ package by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.entity;
 
 public class Plane {
 
-    final static int MIN_TIME = 60;
-    final static int MIN_COUNT_OF_PEOPLE = 400;
+    private final static int MIN_TIME = 60;
+    private final static int MIN_COUNT_OF_PEOPLE = 400;
 
-    public static int planeAcount;
     private String airline;
     private int spaciousness;
     private int time;
