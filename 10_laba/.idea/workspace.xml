@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c14869c7-fb19-493a-bccf-01800796f7d5" name="Default Changelist" comment="Deleted unnecessary lines">
-      <change afterPath="$PROJECT_DIR$/Shablon_oformlenia_otchyota_po_08_laboratornoy_rabote.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/ManufacturerPlanes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task4/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/model/entity/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/model/logic/MatrixWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/userinput/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task4/src/by/bntu/fitr/javalabs/ingoslingsfootsteps/task/view/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/controller/Lab10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Airbase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/logic/Dispatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/util/UserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10_laba/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/util/UserInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java" afterDir="false" />
-    </list>
+    <list default="true" id="c14869c7-fb19-493a-bccf-01800796f7d5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +13,7 @@
     <session id="1425767809">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
@@ -114,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -334,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550525107010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Deleted unnecessary lines">
+      <created>1554193033032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554193033032</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,10 +346,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4969743" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32741934" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49621785" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50378215" side_tool="true" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" visible="true" weight="0.32741934" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.32741934" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -483,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/bntu/fitr/java/inGoslingsFootsteps/Lab10/model/entity/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
