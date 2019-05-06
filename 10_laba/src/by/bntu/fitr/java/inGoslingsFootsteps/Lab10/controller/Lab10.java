@@ -1,30 +1,36 @@
 package by.bntu.fitr.java.inGoslingsFootsteps.Lab10.controller;
 
-import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.logic.Airbase;
-import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.logic.Dispatcher;
-import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.logic.ManufacturerPlanes;
+import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.entity.Customer;
+import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.logic.CustomerController;
+import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.logic.FlightController;
 import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.util.UserInput;
+import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.util.exception.InputException;
 import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.view.Printer;
+import org.apache.log4j.Logger;
+
+import java.io.IOException;
 
 public class Lab10 {
-    public static void main(String[] args) {
-        int count = UserInput.inputInt("Enter the count of planes in airbase:");
+    private static final Logger LOG;
+    static{
+        LOG = Logger.getLogger(by.bntu.fitr.java.inGoslingsFootsteps.Lab10.controller.Lab10.class);
+    }
 
-        Airbase listOfPlanes = new Airbase();
+    public static void main(String[] args) throws IOException{
 
-        for (int i = 0; i < count; i++) {
-            listOfPlanes.addPlane(ManufacturerPlanes.createRandomPlane());
+        try {
+            String name = UserInput.inputString("Hi! What is your name?");
+            String email = UserInput.inputString("What is your email?");
+
+            CustomerController customerController = new CustomerController();
+            Customer customer = customerController.AddNewCustomerOrGetExisting(email, name);
+            FlightController flightController = new FlightController();
+
+            int action = UserInput.inputInt("What do you want: 1)book or 2)return ticket?");
+            CustomerAction.choicebyCustomer(flightController, customer, action);
+        }catch (InputException ex){
+            Printer.print(ex.getMessage());
+            LOG.error(ex.getMessage());
         }
-
-        int countPlaneInAirbase = Dispatcher.countPlaneInAirbase(listOfPlanes);
-        Printer.print("Now in airbase:" + countPlaneInAirbase + " planes");
-        String listPlanes = listOfPlanes.toString();
-        Printer.print(listPlanes);
-        String capital = UserInput.inputString("Where do you want to go");
-        int time = UserInput.inputInt("What time do you want to fly?");
-        String availableList = Dispatcher.getAvailableFlight(listOfPlanes, capital, time);
-        Printer.print(availableList);
-        int countPeople = UserInput.inputInt("Select available flight by spaciousness of departmentPoint:");
-        Printer.print(Dispatcher.bookTicket(listOfPlanes, countPeople));
     }
 }
