@@ -7,31 +7,34 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="module-library" exported="">
       <library>
+        <ANNOTATIONS>
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17" />
+        </ANNOTATIONS>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17" />
         </CLASSES>
         <JAVADOC>
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/site/apidocs" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/site/apidocs" />
         </JAVADOC>
         <NATIVE>
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17" />
         </NATIVE>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17" />
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/contribs/CekiGulcu" />
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/contribs/Jamie Tsao" />
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/contribs/JimMoore" />
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/contribs/ThomasFenner" />
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/src/main/java" />
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/src/main/javadoc" />
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/src/performance/java" />
-          <root url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17/tests/src/java" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/contribs/CekiGulcu" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/contribs/Jamie Tsao" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/contribs/JimMoore" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/contribs/ThomasFenner" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/src/main/java" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/src/main/javadoc" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/src/performance/java" />
+          <root url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17/tests/src/java" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/.idea/apache-log4j-1.2.17" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/.idea/libraries/apache-log4j-1.2.17" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="com.google.code.gson:gson:2.8.5" level="project" />
   </component>
 </module>
