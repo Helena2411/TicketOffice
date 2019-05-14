@@ -6,27 +6,27 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class AirTicketOfficeContex {
-    private static AirTicketOfficeContex context;
+public class AirTicketOfficeContext {
+    private static AirTicketOfficeContext context;
 
     private Flight[] flights;
     private Customer[] customers;
 
-    public AirTicketOfficeContex() {
+    public AirTicketOfficeContext() {
         this.flights = new Flight[0];
         this.customers = new Customer[0];
     }
 
-    public AirTicketOfficeContex(Flight[] flights, Customer[] customers) {
+    public AirTicketOfficeContext(Flight[] flights, Customer[] customers) {
         this.flights = flights;
         this.customers = customers;
     }
 
-    public AirTicketOfficeContex(AirTicketOfficeContex airTicketOfficeContex) {
-        this(airTicketOfficeContex.flights, airTicketOfficeContex.customers);
+    public AirTicketOfficeContext(AirTicketOfficeContext airTicketOfficeContext) {
+        this(airTicketOfficeContext.flights, airTicketOfficeContext.customers);
     }
 
-    public static AirTicketOfficeContex getContext() throws FileNotFoundException {
+    public static AirTicketOfficeContext getContext() throws FileNotFoundException {
     if(context == null)
         context = JsonToArrayObject.DeserializeJson();
     return context;
@@ -61,15 +61,32 @@ public class AirTicketOfficeContex {
         return flights[index];
     }
 
+    public Flight[] getFlights() {
+        return flights;
+    }
+
+    public void setFlights(Flight[] flights) {
+        this.flights = flights;
+    }
+
+    public Customer[] getCustomers() {
+        return customers;
+    }
+
+    public void setCustomers(Customer[] customers) {
+        this.customers = customers;
+    }
+
     public void saveChanges() throws IOException {
-        JsonToArrayObject.SerializeeJson(context);
+        JsonToArrayObject.SerializeJson(context);
     }
     @Override
     public String toString() {
         StringBuilder planesOfAirbase = new StringBuilder();
-
+        int n = 1;
         for (Flight flight : flights) {
-            planesOfAirbase.append(flight.toString());
+            planesOfAirbase.append(n).append(". ").append(flight.toString()).append("\n");
+            n++;
         }
         return planesOfAirbase.toString();
     }

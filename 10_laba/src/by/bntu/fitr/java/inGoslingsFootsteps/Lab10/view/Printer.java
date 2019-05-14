@@ -9,14 +9,6 @@ public class Printer {
         LOG = Logger.getLogger(by.bntu.fitr.java.inGoslingsFootsteps.Lab10.view.Printer.class);
     }
 
-    public static void printArray(Object[] objects) {
-        for (int i = 0; i < objects.length; i++)
-        {
-            System.out.print(i + 1 + " ");
-            System.out.println(objects[i]);
-            LOG.info(objects[i]);
-        }
-    }
     public static void print(Object object)
     {
         System.out.println(object);

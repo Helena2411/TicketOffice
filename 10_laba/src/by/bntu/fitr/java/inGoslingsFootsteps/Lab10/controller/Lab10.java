@@ -23,7 +23,7 @@ public class Lab10 {
             String email = UserInput.inputString("What is your email?");
 
             CustomerController customerController = new CustomerController();
-            Customer customer = customerController.AddNewCustomerOrGetExisting(email, name);
+            Customer customer = customerController.addNewCustomerOrGetExisting(name, email);
             FlightController flightController = new FlightController();
 
             int action = UserInput.inputInt("What do you want: 1)book or 2)return ticket?");

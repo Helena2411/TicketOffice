@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Flight {
     private final static int MIN_COUNT_OF_TICKETS = 400;
-    private final static int MIN_PRICE= 100;
+    private final static int MIN_PRICE = 100;
 
     private String departurePoint;
     private String destination;
@@ -98,11 +98,11 @@ public class Flight {
     }
 
     public void  removeCustomerId(int index) {
-        int size = this.customersId.length;
-        String[] newCustomerId = new String[size - 1];
+        //int size = this.customersId.length;
+        String[] newCustomerId = new String[this.customersId.length - 1];
         System.arraycopy(this.customersId, 0, newCustomerId, 0, index);
         System.arraycopy(this.customersId, index + 1, newCustomerId, index,
-                size - index - 1);
+                this.customersId.length - index - 1);
         this.customersId = new String[newCustomerId.length];
         System.arraycopy(newCustomerId, 0, this.customersId, 0, newCustomerId.length);
     }

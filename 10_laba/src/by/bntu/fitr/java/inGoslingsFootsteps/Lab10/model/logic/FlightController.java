@@ -1,6 +1,6 @@
 package by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.logic;
 
-import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.entity.AirTicketOfficeContex;
+import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.entity.AirTicketOfficeContext;
 import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.entity.Customer;
 import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.entity.Flight;
 import by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.exception.BookingException;
@@ -11,23 +11,26 @@ import java.io.IOException;
 import java.util.Arrays;
 
 public class FlightController {
-    private static AirTicketOfficeContex context;
     private static final Logger LOG;
+
+    private static AirTicketOfficeContext context;
+
     static{
         LOG = Logger.getLogger(by.bntu.fitr.java.inGoslingsFootsteps.Lab10.model.logic.FlightController.class);
     }
 
     public FlightController() throws FileNotFoundException {
-        context = AirTicketOfficeContex.getContext();
+        context = AirTicketOfficeContext.getContext();
     }
 
-    public Flight[] GetAvailableFlight(Customer customer) throws BookingException {
-        Flight[] availableFlight = new Flight[0];
+    public AirTicketOfficeContext getAvailableFlight(Customer customer) throws BookingException {
+        AirTicketOfficeContext availableFlight = new AirTicketOfficeContext();
+
         for (int i = 0; i < context.sizeOfFlight(); i++) {
             boolean isEmpty = true;
             String[] customersId = context.getFlightByIndex(i).getCustomersId();
             if(context.getFlightByIndex(i).getCustomersId().length == 0) {
-                availableFlight = addFlightToArray(availableFlight, i);
+                availableFlight.setFlights(addFlightToArray(availableFlight, i).getFlights());
                 isEmpty = false;
             }
             for(int j =0; j < context.getFlightByIndex(i).getCustomersId().length; j++) {
@@ -36,46 +39,45 @@ public class FlightController {
                 }
             }
             if(isEmpty){
-                availableFlight = addFlightToArray(availableFlight,i);
+                availableFlight.setFlights(addFlightToArray(availableFlight, i).getFlights());
             }
         }
-        if (availableFlight.length == 0) {
+        if (availableFlight.getFlights().length == 0) {
             throw new BookingException("You haven't available flight. Sorry(");
         }
         LOG.info("Got list of available flights");
         return availableFlight;
     }
 
-    public Flight[] GetFlightsBookedByCustomer(Customer customer) throws BookingException {
-        Flight[] occupiedCars = new Flight[0];
+    public AirTicketOfficeContext getFlightsBookedByCustomer(Customer customer) throws BookingException {
+        AirTicketOfficeContext occupiedCars = new AirTicketOfficeContext();
         for (int i = 0; i < context.sizeOfFlight(); i++) {
             String[] customersId = context.getFlightByIndex(i).getCustomersId();
-            if(context.getFlightByIndex(i).getCustomersId().length == 0)
-                continue;
             for (int j = 0; j < context.getFlightByIndex(i).getCustomersId().length; j++) {
                 if (customer.getId().equals(customersId[j])) {
-                    occupiedCars = addFlightToArray(occupiedCars, i);
+                    occupiedCars.setFlights(addFlightToArray(occupiedCars, i).getFlights());
                     break;
                 }
             }
         }
-       if (occupiedCars.length == 0)
-        {
+        if (occupiedCars.getFlights().length == 0) {
             throw new BookingException("You haven't booked flight.");
         }
         LOG.info("Got list of booked by customer flights");
         return occupiedCars;
     }
-    private Flight[] addFlightToArray(Flight[] flights, int index) {
-        flights = Arrays.copyOf(flights, flights.length + 1);
-        flights[flights.length - 1] = context.getFlightByIndex(index);
-        return flights;
+    private AirTicketOfficeContext addFlightToArray(AirTicketOfficeContext airTicketOfficeContext, int index) {
+        airTicketOfficeContext.setFlights(Arrays.copyOf(airTicketOfficeContext.getFlights(),
+                airTicketOfficeContext.getFlights().length + 1));
+        airTicketOfficeContext.getFlights()[airTicketOfficeContext.getFlights().length - 1] =
+                context.getFlightByIndex(index);
+        return airTicketOfficeContext;
     }
 
     public void bookTicket(Flight flight, Customer customer) throws IOException {
         flight.addCustomersId(customer);
-        LOG.info("Data saved");
         context.saveChanges();
+        LOG.info("Data saved");
     }
 
     public void returnTicket(Flight flight, Customer customer) throws IOException {
@@ -85,7 +87,7 @@ public class FlightController {
                     flight.removeCustomerId(i);
                 }
             }
-        LOG.info("Data saved");
         context.saveChanges();
+        LOG.info("Data saved");
     }
 }

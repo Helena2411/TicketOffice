@@ -53,3 +53,175 @@
 2019-05-06 16:07:21 INFO  FlightController:66 - Got list of booked by customer flights
 2019-05-06 16:07:21 INFO  FlightController:88 - Data saved
 2019-05-06 16:07:21 INFO  CustomerAction:33 - Ticket is returned
+2019-05-13 18:44:48 INFO  CustomerController:25 - Got existing customer
+2019-05-13 18:44:50 INFO  Printer:23 - You haven't booked flight.
+2019-05-13 18:44:50 ERROR CustomerAction:39 - You haven't booked flight.
+2019-05-13 18:45:06 INFO  CustomerController:25 - Got existing customer
+2019-05-13 18:45:07 INFO  FlightController:45 - Got list of available flights
+2019-05-13 18:45:07 INFO  Printer:17 - Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2019-05-13 18:45:07 INFO  Printer:17 - Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+2019-05-13 18:45:08 INFO  FlightController:75 - Data saved
+2019-05-13 18:45:08 INFO  CustomerAction:27 - Ticket is booked
+2019-05-13 18:45:22 INFO  CustomerController:25 - Got existing customer
+2019-05-13 18:45:23 INFO  FlightController:45 - Got list of available flights
+2019-05-13 18:45:23 INFO  Printer:17 - Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2019-05-13 18:45:59 INFO  CustomerController:25 - Got existing customer
+2019-05-13 18:46:00 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 18:46:00 INFO  Printer:17 - Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+2019-05-13 18:46:01 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 18:46:01 INFO  FlightController:86 - Data saved
+2019-05-13 18:46:01 INFO  CustomerAction:33 - Ticket is returned
+2019-05-13 18:58:51 INFO  CustomerController:25 - Got existing customer
+2019-05-13 18:58:53 INFO  FlightController:47 - Got list of available flights
+2019-05-13 18:58:53 INFO  Printer:23 - Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+2019-05-13 18:59:13 INFO  CustomerAction:28 - Ticket is booked
+2019-05-13 18:59:31 INFO  CustomerController:25 - Got existing customer
+2019-05-13 18:59:32 INFO  Printer:23 - You haven't booked flight.
+2019-05-13 18:59:32 ERROR CustomerAction:40 - You haven't booked flight.
+2019-05-13 18:59:48 INFO  CustomerController:31 - Added new customer in json
+2019-05-13 19:00:12 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:00:13 INFO  FlightController:47 - Got list of available flights
+2019-05-13 19:00:13 INFO  Printer:23 - Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+2019-05-13 19:04:07 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:04:08 INFO  FlightController:47 - Got list of available flights
+2019-05-13 19:04:08 INFO  Printer:23 - 1Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 19:04:46 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:04:47 INFO  FlightController:47 - Got list of available flights
+2019-05-13 19:04:47 INFO  Printer:23 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 19:09:28 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:09:29 INFO  FlightController:46 - Got list of available flights
+2019-05-13 19:09:29 INFO  Printer:23 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 19:09:38 INFO  FlightController:76 - Data saved
+2019-05-13 19:09:38 INFO  CustomerAction:28 - Ticket is booked
+2019-05-13 19:10:00 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:10:01 INFO  FlightController:46 - Got list of available flights
+2019-05-13 19:10:01 INFO  Printer:23 - 1. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 19:10:02 INFO  FlightController:76 - Data saved
+2019-05-13 19:10:02 INFO  CustomerAction:28 - Ticket is booked
+2019-05-13 19:10:30 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:10:31 INFO  Printer:23 - You haven't available flight. Sorry(
+2019-05-13 19:10:31 ERROR CustomerAction:41 - You haven't available flight. Sorry(
+2019-05-13 19:10:43 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:10:44 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 19:10:44 INFO  Printer:23 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 19:10:44 INFO  FlightController:87 - Data saved
+2019-05-13 19:10:44 INFO  CustomerAction:35 - Ticket is returned
+2019-05-13 19:10:57 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:10:58 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 19:10:58 INFO  Printer:23 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+
+2019-05-13 19:10:59 INFO  FlightController:87 - Data saved
+2019-05-13 19:10:59 INFO  CustomerAction:35 - Ticket is returned
+2019-05-13 19:11:11 INFO  CustomerController:25 - Got existing customer
+2019-05-13 19:11:14 INFO  Printer:23 - You haven't booked flight.
+2019-05-13 19:11:14 ERROR CustomerAction:41 - You haven't booked flight.
+2019-05-13 19:24:29 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 19:24:38 INFO  FlightController:46 - Got list of available flights
+2019-05-13 19:24:38 INFO  Printer:15 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 19:24:40 INFO  FlightController:76 - Data saved
+2019-05-13 19:24:40 INFO  CustomerAction:28 - Ticket is booked
+2019-05-13 19:26:31 INFO  Printer:15 - You entered incorrect data
+2019-05-13 19:26:31 ERROR Lab10:33 - You entered incorrect data
+2019-05-13 19:59:44 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:00:20 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:04:28 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:05:37 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:07:10 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:16:04 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:18:31 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:21:41 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:22:06 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:23:28 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:23:29 INFO  Printer:15 - You haven't available flight. Sorry(
+2019-05-13 20:23:29 ERROR CustomerAction:41 - You haven't available flight. Sorry(
+2019-05-13 20:32:06 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:32:06 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:33:50 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:33:50 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:34:52 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:35:53 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:35:55 INFO  Printer:15 - You haven't available flight. Sorry(
+2019-05-13 20:35:55 ERROR CustomerAction:41 - You haven't available flight. Sorry(
+2019-05-13 20:37:11 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:37:41 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:39:37 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:39:37 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:39:37 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:39:54 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 20:39:54 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:40:32 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:48:00 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:49:28 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:49:28 INFO  FlightController:46 - Got list of available flights
+2019-05-13 20:56:02 INFO  CustomerController:28 - Got existing customer
+2019-05-13 20:56:02 INFO  FlightController:66 - Got list of booked by customer flights
+2019-05-13 21:03:42 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 21:03:45 INFO  FlightController:48 - Got list of available flights
+2019-05-13 21:03:45 INFO  Printer:15 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 21:06:39 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 21:06:40 INFO  FlightController:48 - Got list of available flights
+2019-05-13 21:06:40 INFO  Printer:15 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 21:06:59 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 21:07:01 INFO  FlightController:48 - Got list of available flights
+2019-05-13 21:07:01 INFO  Printer:15 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 21:08:09 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 21:08:11 INFO  Printer:15 - You haven't booked flight.
+2019-05-13 21:08:11 ERROR CustomerAction:40 - You haven't booked flight.
+2019-05-13 21:08:32 INFO  CustomerController:34 - Added new customer in json
+2019-05-13 21:08:33 INFO  FlightController:48 - Got list of available flights
+2019-05-13 21:08:33 INFO  Printer:15 - 1. Minsk ---> Baku, Date - 01.01.2019, Time - 12:00, Price - 200
+2. Moscow ---> Paris, Date - 05.04.2019, Time - 16:00, Price - 300
+
+2019-05-13 21:09:37 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:09:37 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 21:09:37 INFO  FlightController:46 - Got list of available flights
+2019-05-13 21:09:37 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:09:37 INFO  FlightController:46 - Got list of available flights
+2019-05-13 21:09:37 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:09:37 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 21:09:37 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:10:34 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:10:34 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 21:10:34 INFO  FlightController:46 - Got list of available flights
+2019-05-13 21:10:34 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:10:34 INFO  FlightController:46 - Got list of available flights
+2019-05-13 21:10:34 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:10:34 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 21:10:34 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:10:44 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:10:44 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 21:10:44 INFO  FlightController:46 - Got list of available flights
+2019-05-13 21:10:44 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:10:44 INFO  FlightController:46 - Got list of available flights
+2019-05-13 21:10:44 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:10:44 INFO  FlightController:64 - Got list of booked by customer flights
+2019-05-13 21:10:44 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:12:20 INFO  CustomerController:28 - Got existing customer
+2019-05-13 21:12:20 INFO  Printer:15 - You haven't available flight. Sorry(
+2019-05-13 21:12:20 ERROR CustomerAction:40 - You haven't available flight. Sorry(
+2019-05-14 12:05:54 INFO  FlightController:48 - Got list of available flights
+2019-05-14 12:05:54 INFO  CustomerController:28 - Got existing customer
+2019-05-14 12:05:54 INFO  FlightController:48 - Got list of available flights
+2019-05-14 12:05:54 INFO  CustomerController:28 - Got existing customer
+2019-05-14 12:05:54 INFO  FlightController:66 - Got list of booked by customer flights
+2019-05-14 12:05:54 INFO  CustomerController:28 - Got existing customer
+2019-05-14 12:06:08 INFO  CustomerController:34 - Added new customer in json
+2019-05-14 12:06:08 INFO  CustomerController:28 - Got existing customer
+2019-05-14 12:06:08 INFO  CustomerController:28 - Got existing customer
